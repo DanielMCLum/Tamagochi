@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamagotchi Grogu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    
+</head>
+<body>
+    <img src="img/fondo.jpeg" alt="fondoStarWars" class="wallpaper">
+    <main id="home" style="display: block;">
+        <div class="beginning">
+            <button class="btnBrown"> <a href="">START</a></button>
+            <img src="img/logo.jpg" alt="logoJuego">
+            <button class="btnBrown" id="btnInfo"><a href="">INFO</a></button>
+        </div>
+        <div class="putName">
+            <input  class="name" type="text"  id="name" value="PUT YOUR NAME">
+        </div>
+    </main>
+    <main id="info"  style="display: none;" class="info">
+        <img src="img/fondo.jpeg" alt="fondoStarWars" class="wallpaper">
+        <div>
+            <button class="btnBack">
+                <span class="iconify" data-icon="akar-icons:arrow-back-thick">
+                </span>
+            </button>
+        </div>
+        <div class="instructions">
+            <h1>INSTRUCTIONS:</h1>
+        <ul>
+            <li>Put your name.</li>
+            <li>You will have to keep him alive for 5 minutes.</li>
+            <li>To keep him/her alive you have to be aware of his/her needs of food, tiredness and boredom.</li>
+            <li>If any of the needs go up to 5, your character will die.</li>
+            <li>Click on the image of the need you want to give to the character</li>
+            <li>If the needs are maxed out, you will not be able to give them more</li>
+        </ul>
+        </div>
+    </main>
+    <main id="game"></main>
+    <script src="js/index.js"></script>
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+a {
+  text-decoration: none !important;
+  color: #cce8b3;
+  font-style: italic;
+}
+.wallpaper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.beginning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 90px;
+}
+
+.btnBrown {
+  height: 100px;
+  width: 100px;
+  background: #6a4f0b;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+input.name{
+    color: #cce8b3;
+    background-color: #6a4f0b;
+    margin-bottom: 160px;
+    border: 2px solid #cce8b3;
+}
+
+.putName{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  
+}
+
+.instructions{
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15%;
+  margin-left: 5%;
+}
